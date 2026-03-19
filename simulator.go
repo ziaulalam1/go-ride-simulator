@@ -13,7 +13,7 @@ type Simulator struct {
 	rides        sync.Map
 	wg           sync.WaitGroup
 	workers      int
-	onTransition func(from, to RideState) // optional; called after each state change (used in tests)
+	onTransition func(ride *Ride, from, to RideState) // optional; called after each state change (used in tests)
 }
 
 func NewSimulator(workers int) *Simulator {
@@ -71,7 +71,7 @@ func (s *Simulator) transition(ride *Ride, to RideState) {
 	s.rides.Store(ride.ID, ride)
 	logJSON(entry)
 	if s.onTransition != nil {
-		s.onTransition(from, to)
+		s.onTransition(ride, from, to)
 	}
 }
 
@@ -81,15 +81,6 @@ func (s *Simulator) GetRide(id string) (*Ride, bool) {
 		return nil, false
 	}
 	return val.(*Ride), true
-}
-
-func (s *Simulator) AllRides() []*Ride {
-	var rides []*Ride
-	s.rides.Range(func(_, val any) bool {
-		rides = append(rides, val.(*Ride))
-		return true
-	})
-	return rides
 }
 
 func logJSON(v any) {

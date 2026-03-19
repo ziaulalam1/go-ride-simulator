@@ -7,11 +7,11 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"math/rand"
 	"net/http"
 	"os"
 	"os/signal"
 	"strings"
+	"sync"
 	"sync/atomic"
 	"syscall"
 	"time"
@@ -104,7 +104,30 @@ func runMetric(n int) {
 		DurationMS int64     `json:"duration_ms"`
 	}
 
+	var mu sync.Mutex
 	var records []record
+	var lastTime sync.Map // rideID → time.Time
+
+	var wg sync.WaitGroup
+	wg.Add(n)
+
+	sim := NewSimulator(5)
+	sim.onTransition = func(ride *Ride, _, to RideState) {
+		now := time.Now()
+		var durMS int64
+		if v, ok := lastTime.Load(ride.ID); ok {
+			durMS = now.Sub(v.(time.Time)).Milliseconds()
+		}
+		lastTime.Store(ride.ID, now)
+		mu.Lock()
+		records = append(records, record{RideID: ride.ID, State: to, DurationMS: durMS})
+		mu.Unlock()
+		if to == StateCompleted {
+			wg.Done()
+		}
+	}
+	sim.Run()
+
 	for i := 1; i <= n; i++ {
 		ride := &Ride{
 			ID:        fmt.Sprintf("ride-%d", i),
@@ -112,18 +135,12 @@ func runMetric(n int) {
 			State:     StateRequested,
 			UpdatedAt: time.Now().UTC(),
 		}
-		for _, next := range []RideState{StateMatched, StateInProgress, StateCompleted} {
-			start := time.Now()
-			time.Sleep(time.Duration(500+rand.Intn(1000)) * time.Millisecond)
-			ride.State = next
-			ride.UpdatedAt = time.Now().UTC()
-			records = append(records, record{
-				RideID:     ride.ID,
-				State:      next,
-				DurationMS: time.Since(start).Milliseconds(),
-			})
-		}
+		lastTime.Store(ride.ID, time.Now())
+		sim.Submit(ride)
 	}
+
+	wg.Wait()
+	sim.Shutdown()
 
 	if err := os.MkdirAll("reports", 0o755); err != nil {
 		log.Fatal(err)
@@ -146,5 +163,5 @@ func runMetric(n int) {
 	}
 	w.Flush()
 
-	fmt.Fprintf(os.Stderr, "wrote %d records to reports/\n", len(records))
+	fmt.Printf("wrote %d records to reports/\n", len(records))
 }
