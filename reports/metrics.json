@@ -1,0 +1,752 @@
+[
+  {
+    "ride_id": "ride-1",
+    "state": "matched",
+    "duration_ms": 581
+  },
+  {
+    "ride_id": "ride-1",
+    "state": "in_progress",
+    "duration_ms": 1387
+  },
+  {
+    "ride_id": "ride-1",
+    "state": "completed",
+    "duration_ms": 1348
+  },
+  {
+    "ride_id": "ride-2",
+    "state": "matched",
+    "duration_ms": 561
+  },
+  {
+    "ride_id": "ride-2",
+    "state": "in_progress",
+    "duration_ms": 581
+  },
+  {
+    "ride_id": "ride-2",
+    "state": "completed",
+    "duration_ms": 819
+  },
+  {
+    "ride_id": "ride-3",
+    "state": "matched",
+    "duration_ms": 928
+  },
+  {
+    "ride_id": "ride-3",
+    "state": "in_progress",
+    "duration_ms": 1041
+  },
+  {
+    "ride_id": "ride-3",
+    "state": "completed",
+    "duration_ms": 957
+  },
+  {
+    "ride_id": "ride-4",
+    "state": "matched",
+    "duration_ms": 801
+  },
+  {
+    "ride_id": "ride-4",
+    "state": "in_progress",
+    "duration_ms": 1194
+  },
+  {
+    "ride_id": "ride-4",
+    "state": "completed",
+    "duration_ms": 1011
+  },
+  {
+    "ride_id": "ride-5",
+    "state": "matched",
+    "duration_ms": 663
+  },
+  {
+    "ride_id": "ride-5",
+    "state": "in_progress",
+    "duration_ms": 592
+  },
+  {
+    "ride_id": "ride-5",
+    "state": "completed",
+    "duration_ms": 1229
+  },
+  {
+    "ride_id": "ride-6",
+    "state": "matched",
+    "duration_ms": 776
+  },
+  {
+    "ride_id": "ride-6",
+    "state": "in_progress",
+    "duration_ms": 712
+  },
+  {
+    "ride_id": "ride-6",
+    "state": "completed",
+    "duration_ms": 945
+  },
+  {
+    "ride_id": "ride-7",
+    "state": "matched",
+    "duration_ms": 738
+  },
+  {
+    "ride_id": "ride-7",
+    "state": "in_progress",
+    "duration_ms": 608
+  },
+  {
+    "ride_id": "ride-7",
+    "state": "completed",
+    "duration_ms": 996
+  },
+  {
+    "ride_id": "ride-8",
+    "state": "matched",
+    "duration_ms": 970
+  },
+  {
+    "ride_id": "ride-8",
+    "state": "in_progress",
+    "duration_ms": 1028
+  },
+  {
+    "ride_id": "ride-8",
+    "state": "completed",
+    "duration_ms": 759
+  },
+  {
+    "ride_id": "ride-9",
+    "state": "matched",
+    "duration_ms": 547
+  },
+  {
+    "ride_id": "ride-9",
+    "state": "in_progress",
+    "duration_ms": 1449
+  },
+  {
+    "ride_id": "ride-9",
+    "state": "completed",
+    "duration_ms": 788
+  },
+  {
+    "ride_id": "ride-10",
+    "state": "matched",
+    "duration_ms": 1389
+  },
+  {
+    "ride_id": "ride-10",
+    "state": "in_progress",
+    "duration_ms": 1292
+  },
+  {
+    "ride_id": "ride-10",
+    "state": "completed",
+    "duration_ms": 516
+  },
+  {
+    "ride_id": "ride-11",
+    "state": "matched",
+    "duration_ms": 1046
+  },
+  {
+    "ride_id": "ride-11",
+    "state": "in_progress",
+    "duration_ms": 910
+  },
+  {
+    "ride_id": "ride-11",
+    "state": "completed",
+    "duration_ms": 888
+  },
+  {
+    "ride_id": "ride-12",
+    "state": "matched",
+    "duration_ms": 1331
+  },
+  {
+    "ride_id": "ride-12",
+    "state": "in_progress",
+    "duration_ms": 930
+  },
+  {
+    "ride_id": "ride-12",
+    "state": "completed",
+    "duration_ms": 856
+  },
+  {
+    "ride_id": "ride-13",
+    "state": "matched",
+    "duration_ms": 1237
+  },
+  {
+    "ride_id": "ride-13",
+    "state": "in_progress",
+    "duration_ms": 1133
+  },
+  {
+    "ride_id": "ride-13",
+    "state": "completed",
+    "duration_ms": 985
+  },
+  {
+    "ride_id": "ride-14",
+    "state": "matched",
+    "duration_ms": 526
+  },
+  {
+    "ride_id": "ride-14",
+    "state": "in_progress",
+    "duration_ms": 914
+  },
+  {
+    "ride_id": "ride-14",
+    "state": "completed",
+    "duration_ms": 592
+  },
+  {
+    "ride_id": "ride-15",
+    "state": "matched",
+    "duration_ms": 696
+  },
+  {
+    "ride_id": "ride-15",
+    "state": "in_progress",
+    "duration_ms": 1064
+  },
+  {
+    "ride_id": "ride-15",
+    "state": "completed",
+    "duration_ms": 936
+  },
+  {
+    "ride_id": "ride-16",
+    "state": "matched",
+    "duration_ms": 647
+  },
+  {
+    "ride_id": "ride-16",
+    "state": "in_progress",
+    "duration_ms": 578
+  },
+  {
+    "ride_id": "ride-16",
+    "state": "completed",
+    "duration_ms": 825
+  },
+  {
+    "ride_id": "ride-17",
+    "state": "matched",
+    "duration_ms": 660
+  },
+  {
+    "ride_id": "ride-17",
+    "state": "in_progress",
+    "duration_ms": 858
+  },
+  {
+    "ride_id": "ride-17",
+    "state": "completed",
+    "duration_ms": 1459
+  },
+  {
+    "ride_id": "ride-18",
+    "state": "matched",
+    "duration_ms": 1222
+  },
+  {
+    "ride_id": "ride-18",
+    "state": "in_progress",
+    "duration_ms": 689
+  },
+  {
+    "ride_id": "ride-18",
+    "state": "completed",
+    "duration_ms": 699
+  },
+  {
+    "ride_id": "ride-19",
+    "state": "matched",
+    "duration_ms": 501
+  },
+  {
+    "ride_id": "ride-19",
+    "state": "in_progress",
+    "duration_ms": 1205
+  },
+  {
+    "ride_id": "ride-19",
+    "state": "completed",
+    "duration_ms": 1389
+  },
+  {
+    "ride_id": "ride-20",
+    "state": "matched",
+    "duration_ms": 1038
+  },
+  {
+    "ride_id": "ride-20",
+    "state": "in_progress",
+    "duration_ms": 1204
+  },
+  {
+    "ride_id": "ride-20",
+    "state": "completed",
+    "duration_ms": 856
+  },
+  {
+    "ride_id": "ride-21",
+    "state": "matched",
+    "duration_ms": 951
+  },
+  {
+    "ride_id": "ride-21",
+    "state": "in_progress",
+    "duration_ms": 1012
+  },
+  {
+    "ride_id": "ride-21",
+    "state": "completed",
+    "duration_ms": 1106
+  },
+  {
+    "ride_id": "ride-22",
+    "state": "matched",
+    "duration_ms": 658
+  },
+  {
+    "ride_id": "ride-22",
+    "state": "in_progress",
+    "duration_ms": 767
+  },
+  {
+    "ride_id": "ride-22",
+    "state": "completed",
+    "duration_ms": 1332
+  },
+  {
+    "ride_id": "ride-23",
+    "state": "matched",
+    "duration_ms": 1063
+  },
+  {
+    "ride_id": "ride-23",
+    "state": "in_progress",
+    "duration_ms": 705
+  },
+  {
+    "ride_id": "ride-23",
+    "state": "completed",
+    "duration_ms": 1285
+  },
+  {
+    "ride_id": "ride-24",
+    "state": "matched",
+    "duration_ms": 1246
+  },
+  {
+    "ride_id": "ride-24",
+    "state": "in_progress",
+    "duration_ms": 1063
+  },
+  {
+    "ride_id": "ride-24",
+    "state": "completed",
+    "duration_ms": 879
+  },
+  {
+    "ride_id": "ride-25",
+    "state": "matched",
+    "duration_ms": 503
+  },
+  {
+    "ride_id": "ride-25",
+    "state": "in_progress",
+    "duration_ms": 1220
+  },
+  {
+    "ride_id": "ride-25",
+    "state": "completed",
+    "duration_ms": 948
+  },
+  {
+    "ride_id": "ride-26",
+    "state": "matched",
+    "duration_ms": 596
+  },
+  {
+    "ride_id": "ride-26",
+    "state": "in_progress",
+    "duration_ms": 1078
+  },
+  {
+    "ride_id": "ride-26",
+    "state": "completed",
+    "duration_ms": 967
+  },
+  {
+    "ride_id": "ride-27",
+    "state": "matched",
+    "duration_ms": 1498
+  },
+  {
+    "ride_id": "ride-27",
+    "state": "in_progress",
+    "duration_ms": 921
+  },
+  {
+    "ride_id": "ride-27",
+    "state": "completed",
+    "duration_ms": 1123
+  },
+  {
+    "ride_id": "ride-28",
+    "state": "matched",
+    "duration_ms": 1454
+  },
+  {
+    "ride_id": "ride-28",
+    "state": "in_progress",
+    "duration_ms": 637
+  },
+  {
+    "ride_id": "ride-28",
+    "state": "completed",
+    "duration_ms": 634
+  },
+  {
+    "ride_id": "ride-29",
+    "state": "matched",
+    "duration_ms": 745
+  },
+  {
+    "ride_id": "ride-29",
+    "state": "in_progress",
+    "duration_ms": 560
+  },
+  {
+    "ride_id": "ride-29",
+    "state": "completed",
+    "duration_ms": 535
+  },
+  {
+    "ride_id": "ride-30",
+    "state": "matched",
+    "duration_ms": 1147
+  },
+  {
+    "ride_id": "ride-30",
+    "state": "in_progress",
+    "duration_ms": 1396
+  },
+  {
+    "ride_id": "ride-30",
+    "state": "completed",
+    "duration_ms": 502
+  },
+  {
+    "ride_id": "ride-31",
+    "state": "matched",
+    "duration_ms": 1381
+  },
+  {
+    "ride_id": "ride-31",
+    "state": "in_progress",
+    "duration_ms": 837
+  },
+  {
+    "ride_id": "ride-31",
+    "state": "completed",
+    "duration_ms": 1047
+  },
+  {
+    "ride_id": "ride-32",
+    "state": "matched",
+    "duration_ms": 607
+  },
+  {
+    "ride_id": "ride-32",
+    "state": "in_progress",
+    "duration_ms": 1442
+  },
+  {
+    "ride_id": "ride-32",
+    "state": "completed",
+    "duration_ms": 1004
+  },
+  {
+    "ride_id": "ride-33",
+    "state": "matched",
+    "duration_ms": 1053
+  },
+  {
+    "ride_id": "ride-33",
+    "state": "in_progress",
+    "duration_ms": 1344
+  },
+  {
+    "ride_id": "ride-33",
+    "state": "completed",
+    "duration_ms": 705
+  },
+  {
+    "ride_id": "ride-34",
+    "state": "matched",
+    "duration_ms": 1100
+  },
+  {
+    "ride_id": "ride-34",
+    "state": "in_progress",
+    "duration_ms": 926
+  },
+  {
+    "ride_id": "ride-34",
+    "state": "completed",
+    "duration_ms": 853
+  },
+  {
+    "ride_id": "ride-35",
+    "state": "matched",
+    "duration_ms": 1017
+  },
+  {
+    "ride_id": "ride-35",
+    "state": "in_progress",
+    "duration_ms": 1261
+  },
+  {
+    "ride_id": "ride-35",
+    "state": "completed",
+    "duration_ms": 1187
+  },
+  {
+    "ride_id": "ride-36",
+    "state": "matched",
+    "duration_ms": 510
+  },
+  {
+    "ride_id": "ride-36",
+    "state": "in_progress",
+    "duration_ms": 910
+  },
+  {
+    "ride_id": "ride-36",
+    "state": "completed",
+    "duration_ms": 785
+  },
+  {
+    "ride_id": "ride-37",
+    "state": "matched",
+    "duration_ms": 1090
+  },
+  {
+    "ride_id": "ride-37",
+    "state": "in_progress",
+    "duration_ms": 1138
+  },
+  {
+    "ride_id": "ride-37",
+    "state": "completed",
+    "duration_ms": 600
+  },
+  {
+    "ride_id": "ride-38",
+    "state": "matched",
+    "duration_ms": 1053
+  },
+  {
+    "ride_id": "ride-38",
+    "state": "in_progress",
+    "duration_ms": 1091
+  },
+  {
+    "ride_id": "ride-38",
+    "state": "completed",
+    "duration_ms": 1088
+  },
+  {
+    "ride_id": "ride-39",
+    "state": "matched",
+    "duration_ms": 884
+  },
+  {
+    "ride_id": "ride-39",
+    "state": "in_progress",
+    "duration_ms": 798
+  },
+  {
+    "ride_id": "ride-39",
+    "state": "completed",
+    "duration_ms": 768
+  },
+  {
+    "ride_id": "ride-40",
+    "state": "matched",
+    "duration_ms": 638
+  },
+  {
+    "ride_id": "ride-40",
+    "state": "in_progress",
+    "duration_ms": 771
+  },
+  {
+    "ride_id": "ride-40",
+    "state": "completed",
+    "duration_ms": 1395
+  },
+  {
+    "ride_id": "ride-41",
+    "state": "matched",
+    "duration_ms": 1229
+  },
+  {
+    "ride_id": "ride-41",
+    "state": "in_progress",
+    "duration_ms": 1304
+  },
+  {
+    "ride_id": "ride-41",
+    "state": "completed",
+    "duration_ms": 1482
+  },
+  {
+    "ride_id": "ride-42",
+    "state": "matched",
+    "duration_ms": 580
+  },
+  {
+    "ride_id": "ride-42",
+    "state": "in_progress",
+    "duration_ms": 566
+  },
+  {
+    "ride_id": "ride-42",
+    "state": "completed",
+    "duration_ms": 771
+  },
+  {
+    "ride_id": "ride-43",
+    "state": "matched",
+    "duration_ms": 994
+  },
+  {
+    "ride_id": "ride-43",
+    "state": "in_progress",
+    "duration_ms": 589
+  },
+  {
+    "ride_id": "ride-43",
+    "state": "completed",
+    "duration_ms": 1320
+  },
+  {
+    "ride_id": "ride-44",
+    "state": "matched",
+    "duration_ms": 1481
+  },
+  {
+    "ride_id": "ride-44",
+    "state": "in_progress",
+    "duration_ms": 552
+  },
+  {
+    "ride_id": "ride-44",
+    "state": "completed",
+    "duration_ms": 675
+  },
+  {
+    "ride_id": "ride-45",
+    "state": "matched",
+    "duration_ms": 1386
+  },
+  {
+    "ride_id": "ride-45",
+    "state": "in_progress",
+    "duration_ms": 1212
+  },
+  {
+    "ride_id": "ride-45",
+    "state": "completed",
+    "duration_ms": 888
+  },
+  {
+    "ride_id": "ride-46",
+    "state": "matched",
+    "duration_ms": 1254
+  },
+  {
+    "ride_id": "ride-46",
+    "state": "in_progress",
+    "duration_ms": 1030
+  },
+  {
+    "ride_id": "ride-46",
+    "state": "completed",
+    "duration_ms": 1325
+  },
+  {
+    "ride_id": "ride-47",
+    "state": "matched",
+    "duration_ms": 886
+  },
+  {
+    "ride_id": "ride-47",
+    "state": "in_progress",
+    "duration_ms": 1405
+  },
+  {
+    "ride_id": "ride-47",
+    "state": "completed",
+    "duration_ms": 724
+  },
+  {
+    "ride_id": "ride-48",
+    "state": "matched",
+    "duration_ms": 1050
+  },
+  {
+    "ride_id": "ride-48",
+    "state": "in_progress",
+    "duration_ms": 1113
+  },
+  {
+    "ride_id": "ride-48",
+    "state": "completed",
+    "duration_ms": 1033
+  },
+  {
+    "ride_id": "ride-49",
+    "state": "matched",
+    "duration_ms": 1117
+  },
+  {
+    "ride_id": "ride-49",
+    "state": "in_progress",
+    "duration_ms": 1340
+  },
+  {
+    "ride_id": "ride-49",
+    "state": "completed",
+    "duration_ms": 1042
+  },
+  {
+    "ride_id": "ride-50",
+    "state": "matched",
+    "duration_ms": 1290
+  },
+  {
+    "ride_id": "ride-50",
+    "state": "in_progress",
+    "duration_ms": 551
+  },
+  {
+    "ride_id": "ride-50",
+    "state": "completed",
+    "duration_ms": 578
+  }
+]
