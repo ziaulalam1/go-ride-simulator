@@ -1,3 +1,12 @@
+# Build output.
+#
+# LEADING SLASH IS LOAD-BEARING. A gitignore pattern with no slash matches at
+# every depth and matches directories as readily as files, so an unanchored
+# `go-ride-simulator` would also match any directory of that name. Anchored, it
+# matches only the binary `go build` drops at the repository root -- which was
+# committed, at 6.5MB, because no pattern covered it.
+/go-ride-simulator
+
 bin/
 *.exe
 *.test
